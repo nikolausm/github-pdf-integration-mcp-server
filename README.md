@@ -11,6 +11,8 @@ Dieser MCP Server verbindet dein PdfManagement System mit GitHub für automatisi
 
 ## Installation
 
+Voraussetzung: Node.js 20 oder neuer.
+
 1. **Dependencies installieren:**
    ```bash
    npm install
