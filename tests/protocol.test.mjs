@@ -11,7 +11,7 @@ test('lists all tools over stdio', async (t) => {
     command: process.execPath,
     args: [serverEntry],
     env: {
-      ...process.env,
+      PATH: process.env.PATH,
       GITHUB_TOKEN: 'test-token',
       PDF_API_BASE_URL: 'http://127.0.0.1:9',
       PDF_API_KEY: 'test-key',

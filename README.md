@@ -119,6 +119,12 @@ npm run dev
 npm run build
 ```
 
+## Tests
+
+`npm ci --ignore-scripts` und `npm test` prüfen Build und MCP-Protokoll offline. Alle vier Tools werden mit synthetischen Credentials und abgefangenen Axios-/Fetch-Aufrufen getestet, einschließlich Kommentaren und bedingtem Issue-Abschluss. Es werden keine echten Issues angelegt oder geändert und keine PDF-Daten abgerufen. Echte Integrationen sind damit nicht geprüft.
+
+CI führt Installation, Build, Tests und `npm audit --audit-level=moderate` unter Node 20 und 24 aus.
+
 ## Lizenz
 
 MIT - Michael Nikolaus / Minicon eG
